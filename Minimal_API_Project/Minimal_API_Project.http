@@ -1,0 +1,9 @@
+﻿@Minimal_API_Project_HostAddress = https://localhost:7227
+
+POST {{Minimal_API_Project_HostAddress}}/errandworkers
+Content-Type: application/json
+{
+        "errandId": 2,
+        "workerId": 4
+}
+###
